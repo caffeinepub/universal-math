@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { LogOut, Menu, ShoppingCart, Sigma, User, X } from "lucide-react";
+import { LogOut, Menu, ShoppingBag, ShoppingCart, User, X } from "lucide-react";
 import { useState } from "react";
 import { type Route, navigate } from "../App";
 import { useInternetIdentity } from "../hooks/useInternetIdentity";
@@ -39,11 +39,11 @@ export default function Header({ currentRoute }: HeaderProps) {
             className="flex items-center gap-2 group"
           >
             <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center group-hover:scale-105 transition-transform">
-              <Sigma className="w-4 h-4 text-primary-foreground" />
+              <ShoppingBag className="w-4 h-4 text-primary-foreground" />
             </div>
             <span className="font-display font-700 text-lg tracking-tight">
               Universal
-              <span className="text-accent font-800"> Math</span>
+              <span className="text-accent font-800"> Mart</span>
             </span>
           </button>
 

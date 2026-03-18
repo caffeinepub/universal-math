@@ -265,7 +265,7 @@ export default function CartPage() {
             </Button>
 
             <p className="text-xs text-muted-foreground text-center mt-3">
-              Secure checkout powered by Universal Math
+              Secure checkout powered by Universal Mart
             </p>
           </div>
         </div>

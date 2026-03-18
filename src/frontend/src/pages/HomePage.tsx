@@ -59,15 +59,15 @@ export default function HomePage() {
             </div>
             <h1 className="font-display font-bold text-5xl md:text-6xl lg:text-7xl leading-none tracking-tight mb-6">
               Universal
-              <span className="text-accent block">Math</span>
+              <span className="text-accent block">Mart</span>
               <span className="font-light text-3xl md:text-4xl text-primary-foreground/70 block mt-2">
                 All in One Place.
               </span>
             </h1>
             <p className="text-lg text-primary-foreground/70 mb-8 max-w-xl leading-relaxed">
               From the simplest everyday item to the most complex gadget — we've
-              calculated every possible need and stocked it. Discover the
-              universal marketplace.
+              got every possible need covered. Discover the universal
+              marketplace.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button
@@ -220,12 +220,12 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-display font-bold text-3xl md:text-4xl mb-4">
-                The Universal Equation
+                The Universal Solution
                 <span className="text-accent block">for Shopping</span>
               </h2>
               <p className="text-primary-foreground/70 leading-relaxed mb-6">
-                Universal Math was founded on a simple principle: ∑(everything
-                you need) = one place. We've spent years sourcing millions of
+                Universal Mart was founded on a simple principle: everything you
+                need in one place. We've spent years sourcing millions of
                 products across every category imaginable.
               </p>
               <div className="flex flex-wrap gap-6">

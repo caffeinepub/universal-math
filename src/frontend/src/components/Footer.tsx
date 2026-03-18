@@ -1,4 +1,4 @@
-import { Sigma } from "lucide-react";
+import { ShoppingBag } from "lucide-react";
 import { navigate } from "../App";
 
 export default function Footer() {
@@ -13,15 +13,15 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
               <div className="w-8 h-8 bg-accent rounded-md flex items-center justify-center">
-                <Sigma className="w-4 h-4 text-accent-foreground" />
+                <ShoppingBag className="w-4 h-4 text-accent-foreground" />
               </div>
               <span className="font-display font-bold text-lg">
-                Universal <span className="text-accent">Math</span>
+                Universal <span className="text-accent">Mart</span>
               </span>
             </div>
             <p className="text-sm text-primary-foreground/60">
-              Everything you need, all in one place. The universal answer to
-              every shopping equation.
+              Everything you need, all in one place. Your universal shopping
+              destination.
             </p>
           </div>
 
@@ -91,7 +91,7 @@ export default function Footer() {
 
         <div className="border-t border-primary-foreground/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-primary-foreground/50">
-            © {year} Universal Math. All rights reserved.
+            © {year} Universal Mart. All rights reserved.
           </p>
           <p className="text-sm text-primary-foreground/50">
             Built with ❤️ using{" "}
